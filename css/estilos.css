@@ -55,7 +55,7 @@
 .Main {
     margin: 200px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .Article{
@@ -280,14 +280,16 @@
 
 .Footer{
     width: 100%;
-    margin-bottom: 20px;
+    padding-left: 500px;
+    padding-bottom: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .Footer-container{
     display: flex;
     justify-content: space-between;
     width: 60%;
+
 
 }
 .Footer-divs{
