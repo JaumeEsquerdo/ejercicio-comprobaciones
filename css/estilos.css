@@ -154,6 +154,34 @@
     height: 500px;
 }
 
+.Servicios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+                "TarjetasServicios-1 TarjetasServicios-2"
+                "TarjetasServicios-3 TarjetasServicios-4";
+    width: 100%;
+}
+.TarjetasServicios-1{
+    grid-area: TarjetasServicios-1;
+}
+
+.TarjetasServicios-2{
+    grid-area: TarjetasServicios-2;
+}
+
+.TarjetasServicios-3{
+    grid-area: TarjetasServicios-3;
+}
+.TarjetasServicios-4{
+    grid-area: TarjetasServicios-4;
+}
+.TarjetasServicios{
+    margin: 10px;
+    width: 50%;
+    
+}
 
 
 
