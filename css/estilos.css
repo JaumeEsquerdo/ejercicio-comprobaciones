@@ -18,6 +18,10 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    /* margin: 200px; */
+    /* justify-content: flex-start; */
+    
+
 }
 
 /* HEADER */
@@ -53,13 +57,15 @@
 /* MAIN */
 
 .Main {
-    margin: 200px;
+    /* margin: 200px; */
     display: flex;
-    justify-content: flex-start;
+    /* justify-content: flex-start;  */
+    width: 80%;
+    align-items: center;
 }
 
 .Article{
-    width: 80%;
+ 
 }
 
 .Article-header {
@@ -68,13 +74,23 @@
     flex-direction: column;
     justify-content: flex-start;
     gap: 30px;
-    margin: 30px;
+    margin-left: 250px;
+    margin-right: 70px;
 }
-
-.Article-firstPart {
+.Article-firstPart{
     display: flex;
-    max-width: 100%;
-    justify-content: flex-end;
+    width: 100%;
+    justify-content: center;
+}
+.Article-firstPart-div {
+    display: flex;
+    max-width: 70%;
+    justify-content: center;
+}
+.Article-firstPart img {
+    width: 60%; /* O el tamaño que desees */
+    max-width: 100%; /* Para asegurarte de que no exceda el tamaño de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .Article-h1 {
@@ -138,7 +154,7 @@
 
 .Article-thirdPart {
     display: flex;
-    max-width: 100%;
+    max-width: 85%;
     justify-content: flex-end;
 
 }
@@ -157,7 +173,7 @@
 }
 
 .TiposDeServicios-imagen {
-    height: 500px;
+    height: 450px;
 }
 
 .Servicios {
@@ -218,28 +234,31 @@
 }
 
 .Video-img {
+    position: relative;
     display: block;
-    margin-left: auto;
-    width: 100%;
+    margin-left: 250px;
+    width: 70%;
 }
 
 .Video-btn {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(70%, -50%);
 
 }
 
 /* REVIEWS */
 .Reviews {
+    /* width: 1100px; */
     display: flex;
     height: 200px;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .Reviews-quote {
+    width: 1050px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,29 +287,27 @@
     width: 100%;
     display: flex;
     gap: 30px;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 50px;
 
 }
 
 .IllustrativeImages img {
-    max-width: 400px;
+    max-width: 380px;
 }
 
 /* FOOTER */
 
 .Footer{
     width: 100%;
-    padding-left: 500px;
     padding-bottom: 50px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .Footer-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 60%;
-
-
 }
 .Footer-divs{
 }
