@@ -162,6 +162,8 @@
                 "TarjetasServicios-1 TarjetasServicios-2"
                 "TarjetasServicios-3 TarjetasServicios-4";
     width: 100%;
+    justify-items: end;
+    
 }
 .TarjetasServicios-1{
     grid-area: TarjetasServicios-1;
@@ -181,6 +183,9 @@
     margin: 10px;
     width: 50%;
     
+}
+.ImagenGrid{
+    width: 200px;
 }
 
 
