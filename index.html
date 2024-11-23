@@ -46,24 +46,43 @@
 
             </div>
 
-            <div class="Article-secondPart">
-                <h2> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti maxime nam et amet, libero
-                    repudiandae.
-                </h2>
-                <div class="DosTextos">
+            <section class="Article-secondPart">
+                <div class="Article-secondPart-container">
+
+                    <!-- <div class="DosTextos"> -->
+                    <h2 class="SeconPart-h2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti maxime
+                        nam et amet, libero
+                        repudiandae.
+                    </h2>
                     <div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad expedita repellat maiores a culpa
-                            velit sapiente magni harum suscipit incidunt fugiat est veniam iste quos non quia, et
-                            officia dolorum.</p>
+
+                        <div class="DosTextos-separador">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                                expedita repellat maiores a
+                                culpa
+                                velit sapiente magni harum suscipit incidunt fugiat est veniam iste quos non quia, et
+                                officia dolorum.</p>
+
+
+
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+                                mollitia voluptatem
+                                dolor,
+                                explicabo nulla dicta quia sit molestiae quos aperiam voluptatibus distinctio, minima
+                                delectus culpa natus ad ab numquam nam.</p>
+                        </div>
+
+
                     </div>
-                    <div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error mollitia voluptatem dolor,
-                            explicabo nulla dicta quia sit molestiae quos aperiam voluptatibus distinctio, minima
-                            delectus culpa natus ad ab numquam nam.</p>
-                    </div>
+                    <!-- </div> -->
+
+
                 </div>
+            </section>
+
+            <section class="Article-thirdPart">
                 <div class="TiposDeServicios">
-                    <picture><img src="/img/arhitecture-img-2.jpg" alt="Terraza del edificio desde fuera"></picture>
+                    <picture><img class="TiposDeServicios-imagen" src="/img/arhitecture-img-2.jpg" alt="Terraza del edificio desde fuera"></picture>
                     <div>
                         <div>
                             <header>
@@ -98,11 +117,13 @@
                                 <a href="/index.html" class="Button">View more +</a>
                             </footer>
                         </div>
-                        <picture><img src="/img/arhitecture-img-3.jpg" alt="Techo del edificio"></picture>
+                        <picture><img class="TiposDeServicios-imagen" src="/img/arhitecture-img-3.jpg" alt="Techo del edificio"
+                                class="TiposDeServicios-image"></picture>
                     </div>
                 </div>
+            </section>
 
-            </div>
+
             <div class="Video">
                 <img src="/img/arhitecture-img-4.jpg" alt="">
                 <img src="/img/video-button.png" alt="">
@@ -133,16 +154,41 @@
 
 
 
-
-
-
-
-
         </article>
 
     </main>
 
-    <footer class="FooterPage"></footer>
+    <footer class="FooterPage">
+
+        <img src="/img/logo-footer.png" alt="Logo bajo de la página">
+        <p>Copyright © Qodeinteractive</p>
+
+        <div>
+            <p>1368 Maryland Avenue NY</p>
+            <p>99-851-9632, 72-537-8409</p>
+        </div>
+
+        <div>
+            <form action="/index.html" method="post">
+                <label for="FEmail">
+                    <input type="email" id="FEmail" name="FEmail" placeholder="Your email"></label>
+                <label for="FSubmit">
+                    <input type="submit" value="submit"></label>
+            </form>
+            <hr>
+            <nav>
+                <ul class="Header-nav">
+                    <li><a href="/index.html" class="Links">Fb</a></li>
+                    <span>-</span>
+                    <li><a href="/index.html" class="Links">Tw</a></li>
+                    <span>-</span>
+                    <li><a href="/index.html" class="Links">In</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+    </footer>
 
 </body>
 
