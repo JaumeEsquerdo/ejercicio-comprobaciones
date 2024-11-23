@@ -54,8 +54,12 @@
 
 .Main {
     margin: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
 
-
+.Article{
+    width: 80%;
 }
 
 .Article-header {
@@ -107,8 +111,7 @@
 
 }
 
-.Article-secondPart-container,
-os {
+.Article-secondPart-container {
 
     display: flex;
     flex-direction: column;
@@ -262,13 +265,30 @@ os {
 /* imágenes bajo de la página */
 
 .IllustrativeImages {
+    width: 100%;
     display: flex;
     gap: 30px;
-    justify-content: center;
-    
+    justify-content: space-between;
+
 }
-.IllustrativeImages img{
-    width: 15%;
+
+.IllustrativeImages img {
+    max-width: 400px;
 }
 
 /* FOOTER */
+
+.Footer{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.Footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+
+}
+.Footer-divs{
+}
