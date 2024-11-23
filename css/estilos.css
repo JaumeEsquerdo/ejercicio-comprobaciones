@@ -107,7 +107,8 @@
 
 }
 
-.Article-secondPart-container, os {
+.Article-secondPart-container,
+os {
 
     display: flex;
     flex-direction: column;
@@ -132,12 +133,13 @@
     margin-top: 30px;
 }
 
-.Article-thirdPart{
+.Article-thirdPart {
     display: flex;
     max-width: 100%;
     justify-content: flex-end;
 
 }
+
 .TiposDeServicios {
     display: flex;
     max-width: 75%;
@@ -147,60 +149,126 @@
     height: 500px;
     height: auto;
 
-    
-    
+
+
 }
-.TiposDeServicios-imagen{
+
+.TiposDeServicios-imagen {
     height: 500px;
 }
 
-.Servicios{
+.Servicios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: 
-                "TarjetasServicios-1 TarjetasServicios-2"
-                "TarjetasServicios-3 TarjetasServicios-4";
+    grid-template-areas:
+        "TarjetasServicios-1 TarjetasServicios-2"
+        "TarjetasServicios-3 TarjetasServicios-4";
     width: 100%;
     justify-items: end;
-    
+
 }
-.TarjetasServicios-1{
+
+.TarjetasServicios-1 {
     grid-area: TarjetasServicios-1;
 }
 
-.TarjetasServicios-2{
+.TarjetasServicios-2 {
     grid-area: TarjetasServicios-2;
 }
 
-.TarjetasServicios-3{
+.TarjetasServicios-3 {
     grid-area: TarjetasServicios-3;
 }
-.TarjetasServicios-4{
+
+.TarjetasServicios-4 {
     grid-area: TarjetasServicios-4;
 }
-.TarjetasServicios{
+
+.TarjetasServicios {
     margin: 10px;
     width: 50%;
-    
+
 }
-.ImagenGrid{
+
+.ImagenGrid {
     width: 200px;
 }
 
+.Button--white {
+    background-color: white;
+}
 
+/* .TarjetasServicios > p{
+    text-wrap: balance;
+} */
+.TarjetasServicios-header {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
 
+/* Parte del video */
 
+.Video {
+    position: relative;
+    width: 100%;
+}
 
+.Video-img {
+    display: block;
+    margin-left: auto;
+    width: 100%;
+}
 
+.Video-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+
+/* REVIEWS */
 .Reviews {
     display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
 }
+
+.Reviews-quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Reviews-quote>p {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.Reviews a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+/* imágenes bajo de la página */
 
 .IllustrativeImages {
     display: flex;
-
+    gap: 30px;
+    justify-content: center;
+    
+}
+.IllustrativeImages img{
+    width: 15%;
 }
 
 /* FOOTER */
