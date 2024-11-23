@@ -59,7 +59,7 @@
     margin: 30px;
 }
 
-.Article-h1Part {
+.Article-firstPart {
     display: flex;
     max-width: 100%;
 }
@@ -84,4 +84,20 @@
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-thickness: 2px;
+}
+
+.DosTextos{
+    display: flex;
+}
+.TiposDeServicios{
+    display: flex;
+}
+
+.Reviews{
+    display: flex;
+}
+
+.IllustrativeImages{
+    display: flex;
+
 }
